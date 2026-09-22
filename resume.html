@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resume page for Muhammad Rehman — AI Engineer" />
+  <title>Resume | Muhammad Rehman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="logo" href="index.html">MR<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn secondary" href="./M_rehman.pdf" target="_blank" rel="noreferrer">Download PDF</a>
+      <button class="theme-toggle" aria-label="Toggle theme">☼</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section resume-page">
+      <div class="resume-shell reveal">
+        <div class="resume-topbar">
+          <div>
+            <p class="eyebrow"><span></span> AI ENGINEER</p>
+            <h1>Muhammad Rehman</h1>
+          </div>
+          <a class="btn primary" href="./M_rehman.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+        </div>
+
+        <div class="resume-grid">
+          <aside class="resume-sidebar">
+            <div class="resume-profile">
+              <img src="./dp.png" alt="Muhammad Rehman" />
+            </div>
+
+            <div class="resume-card">
+              <h3>Contact</h3>
+              <ul>
+                <li>Email: your.email@example.com</li>
+                <li>GitHub: github.com/MRehman2005</li>
+                <li>LinkedIn: linkedin.com</li>
+                <li>Lahore, Pakistan</li>
+              </ul>
+            </div>
+
+            <div class="resume-card">
+              <h3>Skills</h3>
+              <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Generative AI</li>
+                <li>RAG & LLMs</li>
+                <li>FastAPI</li>
+                <li>Docker</li>
+                <li>SQL / PostgreSQL</li>
+              </ul>
+            </div>
+          </aside>
+
+          <div class="resume-content">
+            <div class="resume-card">
+              <h3>Profile</h3>
+              <p>
+                AI/ML developer focused on building practical machine learning, generative AI,
+                and RAG-powered systems that solve real business problems. I enjoy working
+                across the full stack from model experimentation and API development to deployment.
+              </p>
+            </div>
+
+            <div class="resume-card">
+              <h3>Experience</h3>
+              <div class="resume-item">
+                <div class="resume-item-head">
+                  <strong>AI Intern (Remote)</strong>
+                  <span>Feb 2025 — Apr 2025</span>
+                </div>
+                <p>Arch Technologies</p>
+                <ul>
+                  <li>Worked on applied AI/ML tasks and practical automation workflows.</li>
+                  <li>Contributed to model-driven solutions and problem-solving in a remote internship.</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <div class="resume-item-head">
+                  <strong>AI / ML Development</strong>
+                  <span>2024 — Present</span>
+                </div>
+                <p>Independent Projects & Learning</p>
+                <ul>
+                  <li>Built ML, GenAI, RAG, API, Docker, and MLOps projects.</li>
+                  <li>Focused on deployment-ready AI solutions and practical system design.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="resume-card">
+              <h3>Projects</h3>
+              <div class="resume-item">
+                <div class="resume-item-head">
+                  <strong>AI Medical Chatbot</strong>
+                  <span>GenAI</span>
+                </div>
+                <ul>
+                  <li>Multimodal medical assistant using voice, text, and image-based AI workflows.</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <div class="resume-item-head">
+                  <strong>Text Summarization App</strong>
+                  <span>NLP</span>
+                </div>
+                <ul>
+                  <li>Transformer-based summarization app with API, Docker, and experiment tracking.</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <div class="resume-item-head">
+                  <strong>Laptop Price Predictor</strong>
+                  <span>ML</span>
+                </div>
+                <ul>
+                  <li>Regression project using preprocessing and feature-driven model development.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="resume-card">
+              <h3>Education</h3>
+              <div class="resume-item">
+                <div class="resume-item-head">
+                  <strong>Bachelor’s Degree</strong>
+                  <span>Expected 2027</span>
+                </div>
+                <p>Virtual University of Pakistan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Muhammad Rehman</span>
+    <span>Designed & built with HTML, CSS & JavaScript.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

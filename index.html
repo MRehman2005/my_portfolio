@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Rehman — AI Engineer portfolio. Machine Learning, Generative AI, RAG, FastAPI, Docker and MLOps." />
+  <title>Muhammad Rehman | AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="logo" href="#home">MR<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn secondary" href="cv.html" target="_self" rel="noreferrer">Resume</a>
+      <button class="theme-toggle" aria-label="Toggle theme">☼</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span></span> AI Engineer • ML • Generative AI</p>
+        <h1>Building intelligent<br><span>AI-powered products.</span></h1>
+        <p class="hero-text">
+          I'm Muhammad Rehman, an AI/ML developer focused on turning machine learning,
+          LLMs, RAG, and automation into practical applications.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects <b>↗</b></a>
+          <a href="cv.html" class="btn secondary">View CV</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/MRehman2005" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="photo-shell">
+          <img src="./dp.png" alt="Muhammad Rehman portrait" class="profile-photo" />
+        </div>
+        <div class="floating-chip chip-one">⚡ LLMs</div>
+        <div class="floating-chip chip-two">◈ RAG</div>
+        <div class="floating-chip chip-three">◆ ML</div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>04+</strong><span>AI/ML Projects</span></div>
+      <div><strong>RAG</strong><span>LLM Applications</span></div>
+      <div><strong>API</strong><span>Production Backends</span></div>
+      <div><strong>MLOps</strong><span>Docker • MLflow</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label reveal">01 / ABOUT</div>
+      <div class="two-col">
+        <div class="reveal">
+          <h2>From models to<br><span>real applications.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            I build end-to-end AI applications — from data preparation and model training
+            to APIs, user interfaces, deployment, and LLM-powered workflows.
+          </p>
+          <p>
+            My current focus is Generative AI, Retrieval-Augmented Generation, intelligent
+            agents, and production-oriented ML systems.
+          </p>
+          <div class="mini-list">
+            <div><b>01</b><span>Design & build ML solutions</span></div>
+            <div><b>02</b><span>Integrate LLMs and RAG pipelines</span></div>
+            <div><b>03</b><span>Deploy with APIs, Docker & cloud</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-label reveal">02 / SKILLS</div>
+      <div class="section-heading reveal">
+        <h2>My technical <span>toolbox.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="icon">◎</div><h3>AI & Machine Learning</h3>
+          <p>Python, Scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib, feature engineering, model evaluation.</p>
+          <div class="tags"><span>Python</span><span>Scikit-learn</span><span>TensorFlow</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="icon">✦</div><h3>Generative AI</h3>
+          <p>LLMs, prompt engineering, RAG, embeddings, vector search, LangChain, LangGraph and Hugging Face.</p>
+          <div class="tags"><span>LLMs</span><span>RAG</span><span>LangChain</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="icon">⌘</div><h3>Backend & APIs</h3>
+          <p>Build clean, testable AI backends and inference services with FastAPI and Pydantic.</p>
+          <div class="tags"><span>FastAPI</span><span>Pydantic</span><span>REST APIs</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="icon">◫</div><h3>MLOps & Cloud</h3>
+          <p>Containerization, experiment tracking, version control and cloud deployment workflows.</p>
+          <div class="tags"><span>Docker</span><span>MLflow</span><span>AWS</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label reveal">03 / PROJECTS</div>
+      <div class="section-heading project-heading reveal">
+        <h2>Selected <span>work.</span></h2>
+        <p>Projects built around real AI use cases, not just notebooks.</p>
+      </div>
+
+      <article class="project-card featured reveal">
+        <div class="project-number">01</div>
+        <div class="project-body">
+          <div class="project-meta">MULTIMODAL AI • GENAI</div>
+          <h3>AI Medical Chatbot</h3>
+          <p>
+            A multimodal educational medical assistant that combines text interaction,
+            patient voice input, speech transcription, medical-image analysis and doctor-style
+            voice responses.
+          </p>
+          <div class="tags"><span>Groq</span><span>Vision</span><span>Whisper</span><span>Gradio</span><span>Edge TTS</span></div>
+          <a class="project-link" href="https://github.com/MRehman2005/AI-Medical-Chatbot" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </div>
+        <div class="project-visual medical"><div class="visual-orbit"></div><span>AI<br>VISION</span></div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-number">02</div>
+        <div class="project-body">
+          <div class="project-meta">RAG • CODE INTELLIGENCE</div>
+          <h3>GitHub Repository Q&A</h3>
+          <p>Repository-aware Q&A system that processes source code and documentation, indexes content for semantic retrieval, and uses an LLM to answer questions about a codebase.</p>
+          <div class="tags"><span>FastAPI</span><span>RAG</span><span>ChromaDB</span><span>Embeddings</span></div>
+        </div>
+        <div class="project-visual code"><span>&lt;/&gt;</span></div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-number">03</div>
+        <div class="project-body">
+          <div class="project-meta">NLP • TRANSFORMERS</div>
+          <h3>Text Summarization App</h3>
+          <p>Transformer-based text summarization application with a production-oriented API layer, containerization and experiment tracking workflow.</p>
+          <div class="tags"><span>Hugging Face</span><span>T5</span><span>FastAPI</span><span>Docker</span><span>MLflow</span></div>
+          <a class="project-link" href="https://github.com/MRehman2005/Text-summarization-app" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </div>
+        <div class="project-visual nlp"><span>Σ<br>TEXT</span></div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-number">04</div>
+        <div class="project-body">
+          <div class="project-meta">MACHINE LEARNING • REGRESSION</div>
+          <h3>Laptop Price Prediction</h3>
+          <p>Machine-learning application that transforms laptop specifications into price predictions through preprocessing, model training and an interactive interface.</p>
+          <div class="tags"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>ML</span></div>
+          <a class="project-link" href="https://github.com/MRehman2005/Laptop-Price-Predictor" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </div>
+        <div class="project-visual ml"><span>ŷ = f(x)</span></div>
+      </article>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-label reveal">04 / EXPERIENCE</div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span class="dot"></span>
+          <div><span class="date">Feb 2025 — Apr 2025</span><h3>AI Intern (Remote)</h3><p>Arch Technologies</p><small>Worked on applied AI/ML tasks, model-driven problem solving, and practical automation workflows in a remote internship environment.</small></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="dot"></span>
+          <div><span class="date">2024 — PRESENT</span><h3>AI / ML Development</h3><p>Independent Projects & Learning</p><small>Developing machine learning, GenAI, RAG, API, Docker and MLOps projects with a focus on practical deployment.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cv-section">
+      <div class="section-label reveal">05 / CV</div>
+      <div class="cv-card reveal">
+        <div>
+          <span class="date">RESUME</span>
+          <h2>View my professional CV.</h2>
+        </div>
+        <a class="btn primary" href="cv.html" target="_self" rel="noreferrer">Open CV ↗</a>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="section-label reveal">06 / EDUCATION</div>
+      <div class="education-card reveal">
+        <div><span class="date">EXPECTED 2027</span><h2>Virtual University of Pakistan</h2><p>Bachelor's Degree</p></div>
+        <div class="edu-mark">VU</div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow"><span></span> AVAILABLE FOR OPPORTUNITIES</p>
+        <h2>Let's build something<br><span>intelligent.</span></h2>
+        <p>Interested in AI, ML, GenAI or RAG projects? Get in touch.</p>
+        <a class="btn primary" href="https://mail.google.com/mail/?view=cm&to=your.email@example.com" target="_self" rel="noreferrer">Email Me ↗</a>
+        <div class="contact-links">
+          <a href="https://github.com/MRehman2005" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Muhammad Rehman</span>
+    <span>Designed & built with HTML, CSS & JavaScript.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
