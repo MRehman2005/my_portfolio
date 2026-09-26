@@ -16,18 +16,18 @@
 }
 
 :root[data-theme="light"] {
-  --bg: #f4efe9;
-  --bg-soft: #f8f5f2;
-  --surface: #fffdfb;
-  --surface-strong: #f0e7df;
-  --surface-alt: #f6efe8;
-  --text: #1d2329;
-  --muted: #5e6670;
-  --line: rgba(19, 27, 34, 0.1);
-  --accent: #bf7a58;
-  --accent-strong: #d1865d;
-  --accent-green: #5e9c8f;
-  --shadow: rgba(41, 38, 34, 0.08);
+  --bg: #efe9e1;
+  --bg-soft: #f6f1eb;
+  --surface: #f9f5f1;
+  --surface-strong: #eae1d8;
+  --surface-alt: #f3ece4;
+  --text: #1d2a2f;
+  --muted: #52636d;
+  --line: rgba(28, 42, 47, 0.12);
+  --accent: #b96d4a;
+  --accent-strong: #ca7d56;
+  --accent-green: #4d8a7f;
+  --shadow: rgba(30, 28, 25, 0.08);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -366,11 +366,47 @@ button { font: inherit; }
   color: var(--accent-green);
   font-weight: 700;
 }
+:root[data-theme="light"] .eyebrow,
+:root[data-theme="light"] .kicker {
+  background: rgba(77, 138, 127, 0.08);
+  border-color: rgba(77, 138, 127, 0.18);
+}
 .eyebrow-dot {
   display: inline-block;
   color: var(--accent-green);
   font-size: 1rem;
   line-height: 1;
+}
+:root[data-theme="light"] .hero h1,
+:root[data-theme="light"] .stack-intro h2,
+:root[data-theme="light"] .section-heading h2,
+:root[data-theme="light"] .contact-card h2,
+:root[data-theme="light"] .project-card h3,
+:root[data-theme="light"] .site-footer,
+:root[data-theme="light"] .brand-text strong {
+  color: #1b2b31;
+}
+:root[data-theme="light"] .lead,
+:root[data-theme="light"] .project-card p,
+:root[data-theme="light"] .stack-card p,
+:root[data-theme="light"] .contact-card p,
+:root[data-theme="light"] .brand-text small {
+  color: #4d5d68;
+}
+:root[data-theme="light"] .btn.primary {
+  background: linear-gradient(135deg, rgba(77, 138, 127, 0.18), rgba(119, 165, 156, 0.14));
+  border-color: rgba(77, 138, 127, 0.25);
+}
+:root[data-theme="light"] .nav-pill,
+:root[data-theme="light"] .nav-icon,
+:root[data-theme="light"] .theme-toggle,
+:root[data-theme="light"] .menu-toggle,
+:root[data-theme="light"] .stack-card,
+:root[data-theme="light"] .project-card,
+:root[data-theme="light"] .contact-card,
+:root[data-theme="light"] .portrait-wrap {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(28, 42, 47, 0.1);
 }
 .hero h1 {
   margin: 24px 0 20px;
